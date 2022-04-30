@@ -1,5 +1,9 @@
+import "./App.css";
+import "normalize.css";
+import { Chronometer } from "./components/Chronometer";
+
 function App() {
-  return <h1>Hello, world!</h1>;
+  return <Chronometer />;
 }
 
 export default App;

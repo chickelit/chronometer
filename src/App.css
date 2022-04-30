@@ -1,0 +1,32 @@
+body {
+  background: #121214;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+@font-face {
+  font-family: "DigitalFontRegularItalic";
+  src: url("./assets/fonts/DigitalFont/DigitalFontRegularItalic.ttf");
+}
+
+.controls-button {
+  background: #8257e6;
+  border: none;
+  padding: 4px 12px;
+  border-radius: 6px;
+  color: #e1e1e6;
+  cursor: pointer;
+  transition: all 0.15s linear;
+}
+
+.controls-button:hover {
+  background: #713ee7;
+}
